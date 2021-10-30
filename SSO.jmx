@@ -49,7 +49,7 @@
               </elementProp>
               <elementProp name="client_secret" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">97016082-6240-40f0-8417-0fa9a2eeb722</stringProp>
+                <stringProp name="Argument.value">cb0b66fd-1d19-49bd-b46c-3b334205689d</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">client_secret</stringProp>

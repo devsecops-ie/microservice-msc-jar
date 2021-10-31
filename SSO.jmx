@@ -35,7 +35,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="client_id" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">client01</stringProp>
+                <stringProp name="Argument.value">admin-cli</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">client_id</stringProp>
@@ -69,10 +69,10 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">sso-msc-sso.mycluster-fra02-b3-665168-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
+          <stringProp name="HTTPSampler.domain">sso-sso-msc-ephemeral.mycluster-fra04-b3-551276-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding">&apos;client_id=client01&apos; &apos;username=john&apos; &apos;password=john123&apos; &apos;grant_type=password&apos;</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/auth/realms/master/protocol/openid-connect/token</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>

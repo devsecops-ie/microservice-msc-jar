@@ -73,7 +73,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/auth/realms/master/protocol/openid-connect/token</stringProp>
+          <stringProp name="HTTPSampler.path">sso-sso-msc.mycluster-ams03-b3-586088-3aab24b596a2b713e342fc40a6549c01-0000.ams03.containers.appdomain.cloud</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>

@@ -20,7 +20,7 @@
         <stringProp name="Start users count">500</stringProp>
         <stringProp name="Start users count burst">2000</stringProp>
         <stringProp name="Start users period">12</stringProp>
-        <stringProp name="Stop users count">1000</stringProp>
+        <stringProp name="Stop users count">2000</stringProp>
         <stringProp name="Stop users period">10</stringProp>
         <stringProp name="flighttime">20</stringProp>
         <stringProp name="rampUp">10</stringProp>
@@ -34,12 +34,12 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">vscanner-0-msc-95.mycluster-fra02-b3-568062-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
+          <stringProp name="HTTPSampler.domain">vscanner-0-sso-msc.mycluster-fra02-b3-775945-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
           <stringProp name="HTTPSampler.port">80</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/vs/test</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <stringProp name="HTTPSampler.path">/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -84,7 +84,7 @@
                 <connectTime>true</connectTime>
               </value>
             </objProp>
-            <stringProp name="filename"></stringProp>
+            <stringProp name="filename">smalltest.csv</stringProp>
           </ResultCollector>
           <hashTree/>
           <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">

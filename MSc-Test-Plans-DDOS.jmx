@@ -34,7 +34,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">vscanner-0-new-service-50.mycluster-fra02-b3-454211-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
+          <stringProp name="HTTPSampler.domain">vscanner-0-msc-20.mycluster-fra02-b3-454211-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
           <stringProp name="HTTPSampler.port">80</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>

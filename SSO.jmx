@@ -63,7 +63,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">sso-sso1-msc.mycluster-fra02-b3-972851-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
+          <stringProp name="HTTPSampler.domain">sso-sso1-msc.mycluster-fra02-b3-972851-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud/</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>

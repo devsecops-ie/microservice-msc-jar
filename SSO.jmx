@@ -18,8 +18,8 @@
         <stringProp name="ThreadGroup.num_threads">25000</stringProp>
         <stringProp name="Threads initial delay">5</stringProp>
         <stringProp name="Start users count">500</stringProp>
-        <stringProp name="Start users count burst">1000</stringProp>
-        <stringProp name="Start users period">12</stringProp>
+        <stringProp name="Start users count burst">100</stringProp>
+        <stringProp name="Start users period">20</stringProp>
         <stringProp name="Stop users count">1000</stringProp>
         <stringProp name="Stop users period">10</stringProp>
         <stringProp name="flighttime">20</stringProp>
@@ -63,7 +63,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">sso-sso1-msc.mycluster-fra02-b3-972851-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud/</stringProp>
+          <stringProp name="HTTPSampler.domain">sso-sso-msc.mycluster-fra02-b3-896023-3aab24b596a2b713e342fc40a6549c01-0000.eu-de.containers.appdomain.cloud</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
